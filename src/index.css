@@ -1,0 +1,15 @@
+@import "./style/_variables.scss";
+@import "./style/_theme.scss";
+
+body,
+html,
+#root {
+  height: 100%;
+  margin: 0; 
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}

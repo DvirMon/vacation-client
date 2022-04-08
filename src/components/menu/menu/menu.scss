@@ -1,0 +1,48 @@
+@import "../../../style/variables";
+
+.toolbar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.spacer {
+  flex: 1;
+}
+
+.nav-list {
+  display: flex;
+}
+
+.menu {
+  @include mp-zero();
+
+  .on-scroll {
+    background-color: #fff;
+  }
+
+  a {
+    color: white;
+  }
+
+  .btn-login {
+    position: relative;
+    left: 5%;
+  }
+
+  .text-buttons {
+    text-transform: none;
+  }
+
+  h5 {
+    @include mp-zero();
+  }
+}
+
+// @media screen and (max-width: 600px) {
+//   .toolbar {
+//     padding: 0;
+//   }
+// }
